@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+.navbar-nav{
+    margin-left: auto;
+    padding-right: 10rem;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: white ! important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+ background: linear-gradient(to right  ,#a517ba ,#5f1782);
+ padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left:20 px;
+
+}
+
+/* This is for the banner section css */
+
+#banner
+{
+    background: linear-gradient(to right  ,#a517ba ,#5f1782);
+    color: white;
+    padding-top: 5%; 
+}
+
+/* For the first Paragraph */
+
+.Promo-title
+{
+    font-size: 40px;
+    font-weight:600 ;
+    margin-top: 100px;
+
+}
+
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+/* This is for the service section */
+
+#services
+{
+  padding: 80px 0 ;
+}
+
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.services
+{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.btn-primary
+{
+    
+    border: none;
+    border-radius: 20px;
+    background:linear-gradient(to right  ,#a517ba ,#5f1782);
+}
+
+/* This is about section  */
+
+#about_us
+{
+    background:antiquewhite;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about_us ul li
+{
+    margin: 10px 0 ; 
+}
+
+#about_us ul
+{
+    margin-left: 20px;
+}
+
+ /* This is for testimonal section  */
+
+ #testimonials
+ {
+     margin: 100px 0;
+ }
+
+
+ .testimonials
+{
+    border-left: solid rebeccapurple 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* This is social Media Section */
+
+
+#Social
+{
+    background: wheat;
+    padding: 100px 0 ;
+
+}
+
+#Social p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+
+
+}
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/* This is for the footer Section  */
+
+#footer
+{
+    background:linear-gradient(to right  ,#a517ba ,#5f1782);
+    color: white;
+}
+
+footer-img {
+    width: 100%;
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box img
+{
+
+    width: 120px;
+    margin-bottom: 20px;
+}
+
